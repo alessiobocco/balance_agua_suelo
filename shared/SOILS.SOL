@@ -1,0 +1,329 @@
+*SOILS: Suelos modificados para Chile
+!Suelos Benito Juárez (loc_1)
+!Suelos Coronel Suárez (loc_2)
+!Suelos Gualeguaychú (loc_3)
+!Suelos Junin (loc_4)
+!Suelos Laboulaye (loc_5)
+!Suelos Marcos Juárez (loc_6)
+!Suelos Nueve de Julio (loc_7)
+!Suelos Paraná (loc_8)
+!Suelos Pehuajó (loc_9)
+!Suelos Pilar (loc_10)
+!Suelos Reconquista (loc_11)
+!Suelos Río Cuarto (loc_12)
+!Suelos Tandil (loc_13)
+!Suelos Tres Arroyos (loc_14)
+!Suelos Trenque Lauquen (loc_15)
+!PEDON.....  SOURCE.....  TXTR  DEPT  DESCRPIPTION
+!PEDON.....  SOURCE.....  TXTR  DEPT  DESCRPIPTION
+!Suelos Santa Rosa (loc_16)
+!PEDON.....  SOURCE.....  TXTR  DEPT  DESCRPIPTION
+!PEDON.....  SOURCE.....  TXTR  DEPT  DESCRPIPTION
+!PEDON.....  SOURCE.....  TXTR  DEPT  DESCRPIPTION
+!Suelos Rosario (loc_17)
+!PEDON.....  SOURCE.....  TXTR  DEPT  DESCRPIPTION
+!PEDON.....  SOURCE.....  TXTR  DEPT  DESCRPIPTION
+!Suelos Coronel Pringles (loc_18)
+!PEDON.....  SOURCE.....  TXTR  DEPT  DESCRPIPTION
+!PEDON.....  SOURCE.....  TXTR  DEPT  DESCRPIPTION
+!---ProRindes PARAGUAY---------------------------------------------------------------------------------
+! Suelos IAI de Paraguay
+! Suelos tesis
+! Suelos Alodia
+! ****************************************************************************************
+!                                    SOILS FOR SNIA: WHAT IF, CROP FORECASTS
+!
+!                   CLAY, SILT CLAY, SILT CLAY LOAM, SANDY ALGORTA AND SANDY RIVERA
+!
+!
+!    SOILS PREPARED SEPTEMBER 2016 EUNJIN AND WALTER WITH CORRECTED SDUL AND SLLL
+!                                                                                                      
+! ****************************************************************************************
+!                                              MAIZE and WHEAT
+!
+! ****************************************************************************************
+!  
+!
+!
+!
+!
+!
+!
+!
+! DSSAT v4.6; 07/01/2013
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!###### Usado para testear modelo #####################################################################
+!###### Chile ##########################################################################################
+
+*CICAUQ0001  CIREN       SICL     24 Cauquenes
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+Cauquenes    Chile         -9.000      -99 Generic
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+   -99  0.11  6.00  0.65  73.0  1.00  1.00 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    10    A1 0.205 0.342 0.481 1.000 0.068  1.23 1.900  38.1  37.2   0.0  0.10  5.70   -99 20.20   -99
+    30    A2 0.205 0.338 0.453 1.000 0.039  1.32 1.100  38.1  37.2   0.0  0.06  5.80   -99 20.50   -99
+    70   Bt1 0.241 0.371 0.464 0.280 0.020  1.28 0.800  46.1  35.9   0.0  0.00  5.60   -99 20.10   -99
+   115   Bt2 0.167 0.289 0.401 0.400 0.037  1.47 0.500  29.4  24.4   0.0  0.03  5.80   -99 18.60   -99
+
+*CISROSA000  CIREN       SICL     24 Arrayan
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+Santa Rosa   Chile         -9.000      -99 Generic
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+   -99  0.11  6.00  0.65  73.0  1.00  1.00 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    23     A 0.172 0.361 0.560 1.000 0.209  1.00 7.400  30.6  49.4   0.0  0.37  6.20   -99 44.50   -99
+    43    AB 0.153 0.327 0.560 0.800 0.327  1.00 5.500  26.3  53.8   0.0  0.28  6.40   -99 36.00   -99
+    85    Bw 0.116 0.257 0.485 0.500 0.311  1.22 2.200  18.0  42.7   0.0  0.11  6.60   -99 28.80   -99
+   123    BC 0.095 0.221 0.407 0.400 0.181  1.45 0.900  13.2  28.7   0.0  0.04  6.70   -99 19.60   -99
+   170    C1 0.101 0.229 0.405 0.300 0.153  1.46 0.600  14.7  34.9   0.0  0.03  6.70   -99 18.20   -99
+   248    C2 0.079 0.200 0.372 0.100 0.151  1.55 0.500   9.6  23.6   0.0  0.03  6.90   -99 16.80   -99
+
+*CISROSA201  CIREN       SICL     24 Arrayan
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+Santa Rosa   Chile         -9.000      -99 Generic
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+   -99  0.11  6.00  0.65  73.0  1.00  1.00 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    23   -99 0.172 0.359 0.560 1.000 0.215  1.00 7.200  30.6  49.4   0.0  0.36  6.12   -99 44.50   -99
+    43    AB 0.153 0.327 0.560 0.800 0.327  1.00 5.500  26.3  53.8   0.0  0.28  6.40   -99 36.00   -99
+    85    Bw 0.116 0.257 0.485 0.500 0.311  1.22 2.200  18.0  42.7   0.0  0.11  6.60   -99 28.80   -99
+   123    BC 0.095 0.221 0.407 0.400 0.181  1.45 0.900  13.2  28.7   0.0  0.04  6.70   -99 19.60   -99
+   170    C1 0.101 0.229 0.405 0.300 0.153  1.46 0.600  14.7  34.9   0.0  0.03  6.70   -99 18.20   -99
+   248    C2 0.079 0.200 0.372 0.100 0.151  1.55 0.500   9.6  23.6   0.0  0.03  6.90   -99 16.80   -99
+
+*CISROSA201  CIREN       SICL     24 Arrayan
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+Santa Rosa   Chile         -9.000      -99 Generic
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+   -99  0.11  6.00  0.65  73.0  1.00  1.00 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    23   -99 0.172 0.374 0.560 1.000 0.175  1.00 8.800  30.6  49.4   0.0  0.44  5.88   -99 44.50   -99
+    43    AB 0.153 0.327 0.560 0.800 0.327  1.00 5.500  26.3  53.8   0.0  0.28  6.40   -99 36.00   -99
+    85    Bw 0.116 0.257 0.485 0.500 0.311  1.22 2.200  18.0  42.7   0.0  0.11  6.60   -99 28.80   -99
+   123    BC 0.095 0.221 0.407 0.400 0.181  1.45 0.900  13.2  28.7   0.0  0.04  6.70   -99 19.60   -99
+   170    C1 0.101 0.229 0.405 0.300 0.153  1.46 0.600  14.7  34.9   0.0  0.03  6.70   -99 18.20   -99
+   248    C2 0.079 0.200 0.372 0.100 0.151  1.55 0.500   9.6  23.6   0.0  0.03  6.90   -99 16.80   -99
+
+*CISROSA201  CIREN       SICL     24 Arrayan
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+Santa Rosa   Chile         -9.000      -99 Generic
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+   -99  0.11  6.00  0.65  73.0  1.00  1.00 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    23   -99 0.172 0.353 0.560 1.000 0.233  1.00 6.520  30.6  49.4   0.0  0.33  5.87   -99 44.50   -99
+    43    AB 0.153 0.327 0.560 0.800 0.327  1.00 5.500  26.3  53.8   0.0  0.28  6.40   -99 36.00   -99
+    85    Bw 0.116 0.257 0.485 0.500 0.311  1.22 2.200  18.0  42.7   0.0  0.11  6.60   -99 28.80   -99
+   123    BC 0.095 0.221 0.407 0.400 0.181  1.45 0.900  13.2  28.7   0.0  0.04  6.70   -99 19.60   -99
+   170    C1 0.101 0.229 0.405 0.300 0.153  1.46 0.600  14.7  34.9   0.0  0.03  6.70   -99 18.20   -99
+   248    C2 0.079 0.200 0.372 0.100 0.151  1.55 0.500   9.6  23.6   0.0  0.03  6.90   -99 16.80   -99
+
+*CISROSA201  CIREN       SICL     24 Arrayan
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+Santa Rosa   Chile         -9.000      -99 Generic
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+   -99  0.11  6.00  0.65  73.0  1.00  1.00 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    23   -99 0.172 0.354 0.560 1.000 0.230  1.00 6.630  30.6  49.4   0.0  0.33  5.59   -99 44.50   -99
+    43    AB 0.153 0.327 0.560 0.800 0.327  1.00 5.500  26.3  53.8   0.0  0.28  6.40   -99 36.00   -99
+    85    Bw 0.116 0.257 0.485 0.500 0.311  1.22 2.200  18.0  42.7   0.0  0.11  6.60   -99 28.80   -99
+   123    BC 0.095 0.221 0.407 0.400 0.181  1.45 0.900  13.2  28.7   0.0  0.04  6.70   -99 19.60   -99
+   170    C1 0.101 0.229 0.405 0.300 0.153  1.46 0.600  14.7  34.9   0.0  0.03  6.70   -99 18.20   -99
+   248    C2 0.079 0.200 0.372 0.100 0.151  1.55 0.500   9.6  23.6   0.0  0.03  6.90   -99 16.80   -99
+
+*CISROSA201  CIREN       SICL     24 Arrayan
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+Santa Rosa   Chile         -9.000      -99 Generic
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+   -99  0.11  6.00  0.65  73.0  1.00  1.00 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    23   -99 0.172 0.361 0.560 1.000 0.209  1.00 7.430  30.6  49.4   0.0  0.37  6.03   -99 44.50   -99
+    43    AB 0.153 0.327 0.560 0.800 0.327  1.00 5.500  26.3  53.8   0.0  0.28  6.40   -99 36.00   -99
+    85    Bw 0.116 0.257 0.485 0.500 0.311  1.22 2.200  18.0  42.7   0.0  0.11  6.60   -99 28.80   -99
+   123    BC 0.095 0.221 0.407 0.400 0.181  1.45 0.900  13.2  28.7   0.0  0.04  6.70   -99 19.60   -99
+   170    C1 0.101 0.229 0.405 0.300 0.153  1.46 0.600  14.7  34.9   0.0  0.03  6.70   -99 18.20   -99
+   248    C2 0.079 0.200 0.372 0.100 0.151  1.55 0.500   9.6  23.6   0.0  0.03  6.90   -99 16.80   -99
+
+*CISROSA201  CIREN       SICL     24 Arrayan
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+Santa Rosa   Chile         -9.000      -99 Generic
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+   -99  0.11  6.00  0.65  73.0  1.00  1.00 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    23   -99 0.172 0.378 0.560 1.000 0.166  1.00 9.200  30.6  49.4   0.0  0.46  5.81   -99 44.50   -99
+    43    AB 0.153 0.327 0.560 0.800 0.327  1.00 5.500  26.3  53.8   0.0  0.28  6.40   -99 36.00   -99
+    85    Bw 0.116 0.257 0.485 0.500 0.311  1.22 2.200  18.0  42.7   0.0  0.11  6.60   -99 28.80   -99
+   123    BC 0.095 0.221 0.407 0.400 0.181  1.45 0.900  13.2  28.7   0.0  0.04  6.70   -99 19.60   -99
+   170    C1 0.101 0.229 0.405 0.300 0.153  1.46 0.600  14.7  34.9   0.0  0.03  6.70   -99 18.20   -99
+   248    C2 0.079 0.200 0.372 0.100 0.151  1.55 0.500   9.6  23.6   0.0  0.03  6.90   -99 16.80   -99
+
+*CISROSA201  CIREN       SICL     24 Arrayan
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+Santa Rosa   Chile         -9.000      -99 Generic
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+   -99  0.11  6.00  0.65  73.0  1.00  1.00 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    23   -99 0.172 0.369 0.560 1.000 0.188  1.00 8.250  30.6  49.4   0.0  0.41  5.70   -99 44.50   -99
+    43    AB 0.153 0.327 0.560 0.800 0.327  1.00 5.500  26.3  53.8   0.0  0.28  6.40   -99 36.00   -99
+    85    Bw 0.116 0.257 0.485 0.500 0.311  1.22 2.200  18.0  42.7   0.0  0.11  6.60   -99 28.80   -99
+   123    BC 0.095 0.221 0.407 0.400 0.181  1.45 0.900  13.2  28.7   0.0  0.04  6.70   -99 19.60   -99
+   170    C1 0.101 0.229 0.405 0.300 0.153  1.46 0.600  14.7  34.9   0.0  0.03  6.70   -99 18.20   -99
+   248    C2 0.079 0.200 0.372 0.100 0.151  1.55 0.500   9.6  23.6   0.0  0.03  6.90   -99 16.80   -99
+
+*CISROSA201  CIREN       SICL     24 Arrayan
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+Santa Rosa   Chile         -9.000      -99 Generic
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+   -99  0.11  6.00  0.65  73.0  1.00  1.00 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    23   -99 0.172 0.365 0.560 1.000 0.198  1.00 7.860  30.6  49.4   0.0  0.39  5.84   -99 44.50   -99
+    43    AB 0.153 0.327 0.560 0.800 0.327  1.00 5.500  26.3  53.8   0.0  0.28  6.40   -99 36.00   -99
+    85    Bw 0.116 0.257 0.485 0.500 0.311  1.22 2.200  18.0  42.7   0.0  0.11  6.60   -99 28.80   -99
+   123    BC 0.095 0.221 0.407 0.400 0.181  1.45 0.900  13.2  28.7   0.0  0.04  6.70   -99 19.60   -99
+   170    C1 0.101 0.229 0.405 0.300 0.153  1.46 0.600  14.7  34.9   0.0  0.03  6.70   -99 18.20   -99
+   248    C2 0.079 0.200 0.372 0.100 0.151  1.55 0.500   9.6  23.6   0.0  0.03  6.90   -99 16.80   -99
+
+*CISROSA201  CIREN       SICL     24 Arrayan
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+Santa Rosa   Chile         -9.000      -99 Generic
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+   -99  0.11  6.00  0.65  73.0  1.00  1.00 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    23   -99 0.172 0.486 0.560 1.000 0.016  1.00 20.55  30.6  49.4   0.0  1.03  5.79   -99 44.50   -99
+    43    AB 0.153 0.327 0.560 0.800 0.327  1.00 5.500  26.3  53.8   0.0  0.28  6.40   -99 36.00   -99
+    85    Bw 0.116 0.257 0.485 0.500 0.311  1.22 2.200  18.0  42.7   0.0  0.11  6.60   -99 28.80   -99
+   123    BC 0.095 0.221 0.407 0.400 0.181  1.45 0.900  13.2  28.7   0.0  0.04  6.70   -99 19.60   -99
+   170    C1 0.101 0.229 0.405 0.300 0.153  1.46 0.600  14.7  34.9   0.0  0.03  6.70   -99 18.20   -99
+   248    C2 0.079 0.200 0.372 0.100 0.151  1.55 0.500   9.6  23.6   0.0  0.03  6.90   -99 16.80   -99
+
+*CICAUQ2010  CIREN       SICL     24 Cauquenes
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+Cauquenes    Chile         -9.000      -99 Generic
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+   -99  0.11  6.00  0.65  73.0  1.00  1.00 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    10   -99 0.205 0.348 0.511 1.000 0.107  1.15 2.840  38.1  37.2   0.0  0.14  6.48   -99 20.20   -99
+    30   -99 0.205 0.348 0.511 1.000 0.107  1.15 2.840  38.1  37.2   0.0  0.14  6.48   -99 20.50   -99
+    70   -99 0.241 0.373 0.474 0.280 0.026  1.25 1.100  46.1  35.9   0.0  0.06  5.80   -99 20.10   -99
+   115   -99 0.167 0.290 0.415 0.400 0.051  1.43 0.800  29.4  24.4   0.0   -99  5.80   -99 18.60   -99
+
+*CICAUQ2011  CIREN       SICL     24 Cauquenes
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+Cauquenes    Chile         -9.000      -99 Generic
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+   -99  0.11  6.00  0.65  73.0  1.00  1.00 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    10   -99 0.205 0.342 0.483 1.000 0.070  1.23 1.950  38.1  37.2   0.0  0.10  7.15   -99 20.20   -99
+    30   -99 0.205 0.342 0.483 1.000 0.070  1.23 1.950  38.1  37.2   0.0  0.10  7.15   -99 20.50   -99
+    70   -99 0.241 0.373 0.474 0.280 0.026  1.25 1.100  46.1  35.9   0.0  0.06  5.80   -99 20.10   -99
+   115   -99 0.167 0.290 0.415 0.400 0.051  1.43 0.800  29.4  24.4   0.0   -99  5.80   -99 18.60   -99
+
+*CICAUQ2012  CIREN       SICL     24 Cauquenes
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+Cauquenes    Chile         -9.000      -99 Generic
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+   -99  0.11  6.00  0.65  73.0  1.00  1.00 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    10   -99 0.205 0.345 0.498 1.000 0.089  1.18 2.430  38.1  37.2   0.0  0.12  5.83   -99 20.20   -99
+    30   -99 0.205 0.345 0.498 1.000 0.089  1.18 2.430  38.1  37.2   0.0  0.12  5.83   -99 20.50   -99
+    70   -99 0.241 0.373 0.474 0.280 0.026  1.25 1.100  46.1  35.9   0.0  0.06  5.80   -99 20.10   -99
+   115   -99 0.167 0.290 0.415 0.400 0.051  1.43 0.800  29.4  24.4   0.0   -99  5.80   -99 18.60   -99
+
+*CICAUQ2013  CIREN       SICL     24 Cauquenes
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+Cauquenes    Chile         -9.000      -99 Generic
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+   -99  0.11  6.00  0.65  73.0  1.00  1.00 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    10   -99 0.205 0.347 0.504 1.000 0.098  1.17 2.630  38.1  37.2   0.0  0.13  6.60   -99 20.20   -99
+    30   -99 0.205 0.347 0.504 1.000 0.098  1.17 2.630  38.1  37.2   0.0  0.13  6.60   -99 20.50   -99
+    70   -99 0.241 0.373 0.474 0.280 0.026  1.25 1.100  46.1  35.9   0.0  0.06  5.80   -99 20.10   -99
+   115   -99 0.167 0.290 0.415 0.400 0.051  1.43 0.800  29.4  24.4   0.0   -99  5.80   -99 18.60   -99
+
+*CICAUQ2014  CIREN       SICL     24 Cauquenes
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+Cauquenes    Chile         -9.000      -99 Generic
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+   -99  0.11  6.00  0.65  73.0  1.00  1.00 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    10   -99 0.205 0.347 0.504 1.000 0.098  1.17 2.630  38.1  37.2   0.0  0.13  6.60   -99 20.20   -99
+    30   -99 0.205 0.347 0.504 1.000 0.098  1.17 2.630  38.1  37.2   0.0  0.13  6.60   -99 20.50   -99
+    70   -99 0.241 0.373 0.474 0.280 0.026  1.25 1.100  46.1  35.9   0.0  0.06  5.80   -99 20.10   -99
+   115   -99 0.167 0.290 0.415 0.400 0.051  1.43 0.800  29.4  24.4   0.0   -99  5.80   -99 18.60   -99
+
+*CICAUQ2015  CIREN       SICL     24 Cauquenes
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+Cauquenes    Chile         -9.000      -99 Generic
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+   -99  0.11  6.00  0.65  73.0  1.00  1.00 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    10   -99 0.205 0.345 0.497 1.000 0.088  1.19 2.390  38.1  37.2   0.0  0.12  6.61   -99 20.20   -99
+    30   -99 0.205 0.345 0.497 1.000 0.088  1.19 2.390  38.1  37.2   0.0  0.12  6.61   -99 20.50   -99
+    70   -99 0.241 0.373 0.474 0.280 0.026  1.25 1.100  46.1  35.9   0.0  0.06  5.80   -99 20.10   -99
+   115   -99 0.167 0.290 0.415 0.400 0.051  1.43 0.800  29.4  24.4   0.0   -99  5.80   -99 18.60   -99
+
+*CICAUQ2016  CIREN       SICL     24 Cauquenes
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+Cauquenes    Chile         -9.000      -99 Generic
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+   -99  0.11  6.00  0.65  73.0  1.00  1.00 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    10   -99 0.205 0.347 0.506 1.000 0.099  1.16 2.670  38.1  37.2   0.0  0.13  5.70   -99 20.20   -99
+    30   -99 0.205 0.347 0.506 1.000 0.099  1.16 2.670  38.1  37.2   0.0  0.13  5.70   -99 20.50   -99
+    70   -99 0.241 0.373 0.474 0.280 0.026  1.25 1.100  46.1  35.9   0.0  0.06  5.80   -99 20.10   -99
+   115   -99 0.167 0.290 0.415 0.400 0.051  1.43 0.800  29.4  24.4   0.0   -99  5.80   -99 18.60   -99
+
+*CICAUQ2017  CIREN       SICL     24 Cauquenes
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+Cauquenes    Chile         -9.000      -99 Generic
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+   -99  0.11  6.00  0.65  73.0  1.00  1.00 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    10   -99 0.205 0.342 0.480 1.000 0.066  1.24 1.860  38.1  37.2   0.0  0.09  6.15   -99 20.20   -99
+    30   -99 0.205 0.342 0.480 1.000 0.066  1.24 1.860  38.1  37.2   0.0  0.09  6.15   -99 20.50   -99
+    70   -99 0.241 0.373 0.474 0.280 0.026  1.25 1.100  46.1  35.9   0.0  0.06  5.80   -99 20.10   -99
+   115   -99 0.167 0.290 0.415 0.400 0.051  1.43 0.800  29.4  24.4   0.0   -99  5.80   -99 18.60   -99
+
+*CICAUQ2018  CIREN       SICL     24 Cauquenes
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+Cauquenes    Chile         -9.000      -99 Generic
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+   -99  0.11  6.00  0.65  73.0  1.00  1.00 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    10   -99 0.205 0.347 0.507 1.000 0.102  1.16 2.730  38.1  37.2   0.0  0.14  6.44   -99 20.20   -99
+    30   -99 0.205 0.347 0.507 1.000 0.102  1.16 2.730  38.1  37.2   0.0  0.14  6.44   -99 20.50   -99
+    70   -99 0.241 0.373 0.474 0.280 0.026  1.25 1.100  46.1  35.9   0.0  0.06  5.80   -99 20.10   -99
+   115   -99 0.167 0.290 0.415 0.400 0.051  1.43 0.800  29.4  24.4   0.0   -99  5.80   -99 18.60   -99

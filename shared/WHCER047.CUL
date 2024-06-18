@@ -1,0 +1,66 @@
+$CULTIVARS:WHCER047.08102017   Last edit: 08/11/2017 GH
+
+! Coefficients used in the Cropsim-Ceres model differ from those used
+! in DSSAT Versions 3.5 and 4.0. They can be calculated (approximately) from 
+! V3.5 coefficients as follows:
+
+! P1V   = P1V(v3.5)*10 
+! P1D   = P1D(V3.5)*20
+! P5    = P5(V3.5)*20 + 430
+! G1    = G1(V3.5)*5 + 5
+! G2    = (G2(V3.5)*0.35+0.65) * P5/20
+! G3    = G3(V3.5)*0.7 
+! PHINT = PHINT(V3.5)
+
+! Converted coefficients,and those listed below,should always be
+! tested by using them with real experiments and comparing model 
+! outputs with measured values. 
+
+*CULTIVARS:WHCER047
+@VAR#  VAR-NAME........  EXP#   ECO#   P1V   P1D    P5    G1    G2    G3 PHINT
+!                                        1     2     3     4     5     6     7
+!                                     Vday %/10h  oC.d   #/g    mg     g  oC.d
+999991 MINIMA               . 999991     0     0   100    10    10   0.5    30
+999992 MAXIMA               . 999992    60   200   999    50    80   8.0   150
+                                                                            
+DFAULT DEFAULT              . DFAULT     5    75   450    30    35   1.0    60
+
+IB1500 MANITOU           1,14 CAWH01     8   100   320    23    23   2.5    86 
+IB0488 NEWTON             1,6 USWH01    45    75   500    25    30   2.0    95  
+IB1015 MARIS FUNDIN       1,8 UKWH01    30    83   515    15    44   3.2   100
+
+AW0071 Yecora_Rojo      16,33 AZWH18    10  40.0   450    20    60  1.50    95
+!CI0001 Yecora_Rojo        1,2 CI0001    02    40   570    27    45   4.0   100 
+                                                                                                                                                                                                             
+! COEFF       DEFINITION
+! ========    ==========
+! VAR#        Identification code or number for the specific cultivar.
+! VAR-NAME    Name of cultivar.
+! EXP#        Number of experiments used to generate parameters
+! ECO#        Ecotype code for this cultivar,points to entry in ECO file
+! P1V         Days,optimum vernalizing temperature,required for vernalization
+! P1D         Photoperiod response (% reduction in rate/10 h drop in pp)
+! P5          Grain filling (excluding lag) phase duration (oC.d)
+! G1          Kernel number per unit canopy weight at anthesis (#/g)
+! G2          Standard kernel size under optimum conditions (mg)
+! G3          Standard,non-stressed mature tiller wt (incl grain) (g dwt)
+! PHINT       Interval between successive leaf tip appearances (oC.d)
+
+
+! Added for run ProRindeS
+IN0006 BAG 9                  DFAUL1     1    69   747  28.0  32.5   2.0    95
+IN0007 Inter-Largo            DFAUL1     1    78   710  25.7  32.4   2.0    95
+! Chile
+! Simulating the yield response of wheat crops to projected
+! climate scenarios for southern Chile. Patricio Sandaña
+!IN0008 Pandora                CI0001     5    25   630    24    52   3.0    95
+
+! Determination of genetic coefficients of three spring wheat varieties under
+!  a Mediterranean environment applying the DSSAT model.
+! Isaac Maldonado-Ibarra1*, Gabriel R. Rodríguez2, and Dalma Castillo-Rosales1 
+!IN0008 Pandora           1,24 USWH01     5    92   795    25    55   3.0    95
+IN0009 Corcolen          1,24 DFAULT   6.9    78 734.6    27 51.20   3.0    96 
+IN0010 Llareta           1,24 DFAULT  9.67 92.31 730.9 25.47 62.65   3.0    96
+
+IN0008 Pandora           1,24 USWH01 8.222 69.52 658.6 19.56 49.24 3.000 95.00
+
