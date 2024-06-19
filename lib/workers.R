@@ -166,6 +166,7 @@ BalanceAguaSuelo <- function(input.value, climate.data, parametros.cultivo, feno
       
       Lend <- fenologia.serie.i %>%
         dplyr::filter(stage %in% end) %>%
+        # Se agregan 15 días extras para considerar madurez de cosecha
         dplyr::pull(date) %>% diff() %>% as.numeric() + 15
       
       # Altura del cultivo
@@ -233,6 +234,7 @@ BalanceAguaSuelo <- function(input.value, climate.data, parametros.cultivo, feno
                       Ze = 0.1143,      # Depth of surface evaporation layer (m) (FAO-56 Table 19 and Page 144)
                       REW = 9.0000)     # Total depth Stage 1 evaporation (mm) (FAO-56 Table 19)
           
+          # Ejectur balance
           balance <- fao56(par = par, wth = climate.data.i, startDate = startDate, endDate = endDate)
           
           balance %<>%
