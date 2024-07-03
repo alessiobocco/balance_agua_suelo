@@ -6,7 +6,7 @@
 #rm(list = ls()); gc()
 Sys.setenv(TZ = "UTC")
 list.of.packages <- c("dplyr", "doMC", "foreach", "iterators", 
-                      "parallel", "randomForest", "xts", "zoo",
+                      "parallel", "doParallel", "randomForest", "xts", "zoo",
                       "lazyeval", "sirad", "missForest", "rgeos",
                       "gstat", "geosphere", "rgdal", "optparse")
 for (pack in list.of.packages) {
@@ -145,12 +145,13 @@ estaciones <- purrr::map_dfr(
 # Renombrar columnas y filtrar estaciones
 estaciones <- estaciones %>%
   dplyr::rename(lon_dec = longitud, lat_dec = latitud, elev = elevacion) %>%
-  dplyr::filter(omm_id %in% estacionesID) 
+  dplyr::filter(omm_id %in% c(87244, 87328, 87344, 87345, 87349, 87466, 87453, 87467, 87534, 9987009)) 
 
 # Calculamos las coordenadas en Gauss Kruger de cada estación.
 GK.coords <- Gauss.Kruger.coordinates(estaciones)
 # Agregamos las coordenadas x e y (GK) de cada estación.
-estaciones <- data.frame(sp::coordinates(GK.coords), estaciones)
+estaciones <- data.frame(sp::coordinates(GK.coords), estaciones) %>%
+  dplyr::select(x = 1, y = 2)
 
 # Obtenemos los registros diarios de las estaciones con las que vamos a trabajar.
 registrosDiarios <- purrr::map_dfr(
@@ -207,7 +208,8 @@ registrosImputados <- purrr::map_dfr(
     GK.coords <- Gauss.Kruger.coordinates(vecinos.data)
     
     # Agregamos las coordenadas x e y al data frame de vecinos.
-    vecinos.data <- data.frame(sp::coordinates(GK.coords), omm_id=GK.coords@data$omm_id)
+    vecinos.data <- data.frame(sp::coordinates(GK.coords), omm_id=GK.coords@data$omm_id) %>%
+      dplyr::select(x = 1, y = 2)
     
     # Traer registros de vecinos (solo cuando sea necesario).
     registrosVecinos <- NULL
@@ -240,8 +242,7 @@ registrosImputados <- purrr::map_dfr(
                 if("estado" %in% names(.)) dplyr::filter(., estado == 'A') else .
                 if("estado" %in% names(.)) dplyr::select(., -estado) else .
               }
-            print(omm_id)
-            
+
             registros.ancho       <- tidyr::spread(registros.largo, key = variable_id, value = valor) 
             return (registros.ancho)
           }
